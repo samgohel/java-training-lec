@@ -1,4 +1,4 @@
-package oop.inheritance.impl;
+package oop.inheritance.impl.animal.dog;
 
 import oop.inheritance.interfaces.Animal;
 

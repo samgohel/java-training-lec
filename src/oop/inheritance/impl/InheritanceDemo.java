@@ -1,5 +1,8 @@
 package oop.inheritance.impl;
 
+import oop.inheritance.impl.animal.cat.Cat;
+import oop.inheritance.impl.animal.dog.Dog;
+
 public class InheritanceDemo {
     public static void main(String[] args) {
         Animal catObj1 = new Cat();

@@ -1,6 +1,6 @@
 package oop.inheritance.impl;
 
-import oop.inheritance.interfaces.Animal;
+import oop.inheritance.impl.animal.dog.Jojo;
 
 public class Demo {
     public static void main(String[] args) {
