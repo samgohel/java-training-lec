@@ -1,5 +1,9 @@
 package oop.inheritance.impl.animal.dog;
 
+import oop.inheritance.interfaces.Animal;
+
+import java.io.IOException;
+
 public class Husky extends Dog{
 
     /**

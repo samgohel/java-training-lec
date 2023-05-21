@@ -2,6 +2,8 @@ package oop.inheritance.impl;
 
 import oop.inheritance.impl.animal.cat.Cat;
 import oop.inheritance.impl.animal.dog.Dog;
+import oop.inheritance.impl.animal.dog.Husky;
+import oop.inheritance.interfaces.Animal;
 
 public class InheritanceDemo {
     public static void main(String[] args) {
@@ -18,17 +20,16 @@ public class InheritanceDemo {
         catObj2.jumps();
         doPamper(catObj2);
 
-        Animal dogObj1 = new Dog();
+        Animal dogObj1 = new Husky();
         dogObj1.run();
         dogObj1.sound();
         dogObj1.sleep();
         doPamper(catObj1);
 
-        Dog dogObj2 = new Dog();
+        Dog dogObj2 = new Husky();
         dogObj2.run();
         dogObj2.sound();
         dogObj2.sleep();
-        dogObj2.walk();
         doPamper(dogObj2);
 
         doPamperGeneric(catObj1);
@@ -51,5 +52,4 @@ public class InheritanceDemo {
     public static void doPamperGeneric(Animal animal) {
         System.out.println("Pampering " + animal);
     }
-}
 }

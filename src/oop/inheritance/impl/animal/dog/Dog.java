@@ -8,4 +8,8 @@ public abstract class Dog implements Animal {
     public void bark(){
         System.out.println("bow bow bow !!!!");
     }
+
+    private void youCantTouchMe(){
+        System.out.println("FO");
+    }
 }
