@@ -1,5 +1,6 @@
 package oop.inheritance.interfaces;
 
+import oop.inheritance.impl.animal.dog.Dog;
 import oop.inheritance.impl.animal.dog.Husky;
 
 import java.io.IOException;
