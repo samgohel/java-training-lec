@@ -11,7 +11,6 @@ public class ValidParentheses {
                         (input.charAt(i) == '{' && input.charAt(i + 1) == '}') ||
                         (input.charAt(i) == '[' && input.charAt(i + 1) == ']')) {
                     input = input.substring(0, i) + input.substring(i + 2);
-                    System.out.println("Input is " + input);
                     isValidParentheses(input);
                 }
             }
